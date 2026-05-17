@@ -11,6 +11,7 @@
     <test name="Login Tests">
         <classes>
             <class name="com.framework.tests.LoginTest"/>
+            <class name="com.framework.tests.ProductsTest"/>
         </classes>
     </test>
 
