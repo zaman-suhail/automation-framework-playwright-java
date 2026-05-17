@@ -1,0 +1,31 @@
+{
+  "validUsers": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "description": "Standard user login"
+    },
+    {
+      "username": "problem_user",
+      "password": "secret_sauce",
+      "description": "Problem user login"
+    }
+  ],
+  "invalidUsers": [
+    {
+      "username": "wrong_user",
+      "password": "wrong_pass",
+      "expectedError": "Username and password do not match"
+    },
+    {
+      "username": "",
+      "password": "",
+      "expectedError": "Username is required"
+    },
+    {
+      "username": "standard_user",
+      "password": "wrong_pass",
+      "expectedError": "Username and password do not match"
+    }
+  ]
+}
