@@ -37,3 +37,11 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+target/
+reports/
+logs/
+*.class
+.idea/
+*.iml
+.DS_Store
