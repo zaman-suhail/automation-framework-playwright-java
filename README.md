@@ -412,10 +412,4 @@ page.locator(".form input")            // Parent > child
 
 ---
 
-## License
-
-MIT License — see [LICENSE](LICENSE) file.
-
----
-
 *Built with Java 21 · Playwright 1.59.0 · TestNG 7.12.0 · 9 Design Patterns · GitHub Actions*
